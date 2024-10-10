@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIXICONS ===============-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Website</title>
+    </head>
+    <body>
+        <div class="popup-overlay"></div>
+        <div class="popup">
+            <i class="ri-close-large-line popup__close"></i>
+            <div class="popup__content">
+                <h2>
+                    Thank you for joining us! 💌
+                </h2>
+                <span>
+                    You have subscribed to our updates.
+                </span>
+            </div>
+        </div>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">
+                    Shop.
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html#home" class="nav__link active-link">
+                                <i class="ri-home-line"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="index.html#new" class="nav__link">
+                                <i class="ri-price-tag-3-line"></i>
+                                <span>New</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="index.html#collection" class="nav__link">
+                                <i class="ri-compass-line"></i>
+                                <span>Collection</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="index.html#products" class="nav__link">
+                                <i class="ri-t-shirt-line"></i>
+                                <span>Products</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav-div" style="display: flex; margin-left: 3rem;">
+                    <a href="contact.html">
+                        <span>Contact</span>
+                    </a>
+    
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== PRODUCT DETAILS ====================-->
+            <section class="section-p1 section" id="product1">
+                <h2 class="section__title">
+                    Featured Products
+                </h2>
+                <p align="center" style="margin-top: -3rem;">
+                    Summer Collection New Modern Design
+                </p>
+
+                <div class="pro-container container">
+                    <div class="pro">
+                        <img src="assets/img/products/f1.jpg" alt="">
+                        <div class="des">
+                            <span>AI Karam</span>
+                            <h5>Summer Cotton Printed T shirt</h5>
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                                <i class="ri-star-line"></i>
+                                <i class="ri-star-line"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <h4>$600.00</h4>
+                        </div>
+                        <a href="https://shoppingway.shop/product/summer-cotton-printed-t-shirt"><i class="ri-shopping-cart-2-line cart__icon"></i></a>
+                    </div>
+
+                    <div class="pro">
+                        <img src="assets/img/products/f2.jpg" alt="">
+                        <div class="des">
+                            <span>Printed T-Shirt</span>
+                            <h5>Elegant T-Shirt</h5>
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <h4>$850.00</h4>
+                        </div>
+                        <a href="https://shoppingway.shop/product/black-elegant-t-shirt"><i class="ri-shopping-cart-2-line cart__icon"></i></a>
+                    </div>
+
+                    <div class="pro">
+                        <img src="assets/img/products/f3.jpg" alt="">
+                        <div class="des">
+                            <span>Khaddi</span>
+                            <h5>T Shirt in Cotton Fabric</h5>
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <h4>$750.00</h4>
+                        </div>
+                        <a href="https://shoppingway.shop/product/t-shirt-in-cotton-fabric"><i class="ri-shopping-cart-2-line cart__icon"></i></a>
+                    </div>
+
+                    <div class="pro">
+                        <img src="assets/img/products/f4.jpg" alt="">
+                        <div class="des">
+                            <span>Marsh Mallo</span>
+                            <h5>T-Shirt (Marsh Mallow)</h5>
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <h4>$300.00</h4>
+                        </div>
+                        <a href="https://shoppingway.shop/product/t-shirt-marsh-mallow"><i class="ri-shopping-cart-2-line cart__icon"></i></a>
+                    </div>
+
+                    <div class="pro">
+                        <img src="assets/img/products/f5.jpg" alt="">
+                        <div class="des">
+                            <span>Bindas</span>
+                            <h5>Bindas Printed T-shirts</h5>
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                                <i class="ri-star-line"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <h4>$650.00</h4>
+                        </div>
+                        <a href="https://shoppingway.shop/product/bindas-printed-t-shirts"><i class="ri-shopping-cart-2-line cart__icon"></i></a>
+                    </div>
+
+                    <div class="pro">
+                        <img src="assets/img/products/f6.jpg" alt="">
+                        <div class="des">
+                            <span>Check Shirt</span>
+                            <h5>Trendy Printed Tracksuit</h5>
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <h4>$550.00</h4>
+                        </div>
+                        <a href="https://shoppingway.shop/product/trendy-printed-tracksuit"><i class="ri-shopping-cart-2-line cart__icon"></i></a>
+                    </div>
+
+                    <div class="pro">
+                        <img src="assets/img/products/f7.jpg" alt="">
+                        <div class="des">
+                            <span>Ghajni Style</span>
+                            <h5>Markhor Logo T Shirt</h5>
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <h4>$700.00</h4>
+                        </div>
+                        <a href="https://shoppingway.shop/product/markhor-logo-t-shirt"><i class="ri-shopping-cart-2-line cart__icon"></i></a>
+                    </div>
+
+                    <div class="pro">
+                        <img src="assets/img/products/f8.jpg" alt="">
+                        <div class="des">
+                            <span>Khaddi</span>
+                            <h5>T Shirt Round Neck</h5>
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-line"></i>
+                            </div>
+                            <h4>$800.00</h4>
+                        </div>
+                        <a href="https://shoppingway.shop/product/t-shirt-round-neck"><i class="ri-shopping-cart-2-line cart__icon"></i></a>
+                    </div>
+
+                    <div class="pro">
+                        <img src="assets/img/products/f9.jpg" alt="">
+                        <div class="des">
+                            <span>Fabric</span>
+                            <h5>Stylish Printed T Shirt</h5>
+                            <div class="star">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </div>
+                            <h4>$950.00</h4>
+                        </div>
+                        <a href="https://shoppingway.shop/product/stylish-printed-t-shirt"><i class="ri-shopping-cart-2-line cart__icon"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== JOIN ====================-->
+            <section class="join">
+                <div class="join__container">
+                    <img src="assets/img/join-bg.png" alt="image" class="join__bg">
+
+                    <div class="join__data container grid">
+                        <h2 class="join__title section__title">
+                            Subscribe To Receive <br>
+                            The Latest Updates
+                        </h2>
+
+                        <form class="join__form" id="receive-form">
+                            <input type="email" required placeholder="Enter email" class="join__input">
+                            <button type="submit" class="join__button">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="products section" id="products">
+                <h2 class="section__title">
+                    Best Products
+                </h2>
+
+                <div class="products__container container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="products__card swiper-slide">
+                            <img src="assets/img/product1.png" alt="product image" class="products__img">
+                        
+                            <h2 class="products__title">
+                                Gotland black Jacket
+                            </h2>
+                            <span class="products__price">
+                                $124.99
+                            </span>
+                        </article>
+
+                        <article class="products__card swiper-slide">
+                            <img src="assets/img/product2.png" alt="product image" class="products__img">
+                        
+                            <h2 class="products__title">
+                                black Sports Shorts
+                            </h2>
+                            <span class="products__price">
+                                $34.99
+                            </span>
+                        </article>
+
+                        <article class="products__card swiper-slide">
+                            <img src="assets/img/product3.png" alt="product image" class="products__img">
+                        
+                            <h2 class="products__title">
+                                Knox Quilted Jacket
+                            </h2>
+                            <span class="products__price">
+                                $97.99
+                            </span>
+                        </article>
+
+                        <article class="products__card swiper-slide">
+                            <img src="assets/img/product4.png" alt="product image" class="products__img">
+                        
+                            <h2 class="products__title">
+                                Blue Sport Pants
+                            </h2>
+                            <span class="products__price">
+                                $69.99
+                            </span>
+                        </article>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-line"></i>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== BRANDS ====================-->
+            <section class="brand section">
+                <h2 class="section__title">
+                    Brands We Sell
+                </h2>
+
+                <div class="brand__container container grid">
+                    <img src="assets/img/logo1.png" alt="logo image" class="brand__img">
+                    <img src="assets/img/logo2.png" alt="logo image" class="brand__img">
+                    <img src="assets/img/logo3.png" alt="logo image" class="brand__img">
+                    <img src="assets/img/logo4.png" alt="logo image" class="brand__img">
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        Shop.
+                    </a>
+
+                    <p class="footer__description">
+                        Committed to bringing you the <br>
+                        best clothing from popular <br>
+                        brands.
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">
+                            Company
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="index.html" class="footer__link">Shop</a>
+                            </li>
+
+                            <li>
+                                <a href="index.html#collection" class="footer__link">Category</a>
+                            </li>
+
+                            <li>
+                                <a href="contact.html" class="footer__link">Contact info</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Blog
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Events</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Popular news</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer__link">Recent news</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Office
+                        </h3>
+
+                        <p class="footer__information">
+                            Monday - Saturday <br>
+                            9AM - 10PM
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Contact us
+                        </h3>
+
+                        <ul class="footer__social">
+                            <!-- Insert your name from your facebook page -->
+                            <a href="https://facebook.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+
+                            <!-- Insert your name from your instagram page -->
+                            <a href="https://instagram.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+
+                            <!-- Insert your name from your threads page -->
+                            <a href="https://threads.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-threads-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169; Shop. All rights reserved
+                </span>
+
+                <a href="#" class="footer__privacy">
+                    Terms & Conditions
+                </a>
+            </div>
+        </footer>
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+        
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
